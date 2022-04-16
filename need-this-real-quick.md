@@ -1,4 +1,4 @@
-= Welcome =
+# Welcome
 
 We are gathered here today to witness the union of C. and E.
 
@@ -6,15 +6,15 @@ Today is the beginning of a remarkable journey for this couple.
 Drawing on their mutual admiration, respect, and trust, they are ready to embark on the next chapter in their lives.
 We celebrate the love and light evident in their relationship, and wish them well on this joyous occasion.
 
-= Speak Now =
+# Speak Now
 
 If anyone has cause to object to the forming of this union, speak now or forever hold your peace.
 
-= Sermon =
+# Sermon
 
 Love. Today, we celebrate love.
 
-= Declaration of Intent (**required**) =
+# Declaration of Intent (**required**)
 
 A: C. and E., it's time to join hands.
 
@@ -24,7 +24,7 @@ C.: I do.
 A: E., do you take C. as your beloved Husband, to have and to hold, through all of the blue bird days and Seattle greys, in sickness and in health, so long as you both shall live?
 E.: I do.
 
-= Ring Exchange =
+# Ring Exchange
 
 Please repeat after me:
 
@@ -42,10 +42,10 @@ with this ring as a symbol of our everlasting love.
 Let it never lose its luster,
 just as my love for you will never fade.
 
-= Pronouncement (**required**) =
+# Pronouncement (**required**)
 
 By the power vested in me by the _ and by the state of _, under the eyes of the Universe, I now pronounce you Husband and Wife!
 
-= Kiss =
+# Kiss
 
 C., you may now kiss the bridge.
