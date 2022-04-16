@@ -29,18 +29,18 @@ E.: I do.
 Please repeat after me:
 
 A+C.:
-I, C.,
-present you, E.,
-with this ring as a symbol of our everlasting love.
-Let it never lose its luster,
-just as my love for you will never fade.
+* I, C.,
+* present you, E.,
+* with this ring as a symbol of our everlasting love.
+* Let it never lose its luster,
+* just as my love for you will never fade.
 
 A+E.:
-I, E.,
-present you, C.,
-with this ring as a symbol of our everlasting love.
-Let it never lose its luster,
-just as my love for you will never fade.
+* I, E.,
+* present you, C.,
+* with this ring as a symbol of our everlasting love.
+* Let it never lose its luster,
+* just as my love for you will never fade.
 
 # Pronouncement (**required**)
 
