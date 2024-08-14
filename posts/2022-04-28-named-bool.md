@@ -189,7 +189,7 @@ enum ShutdownTask {
 }
 ```
 
-It is subjective and situational, but I generally prefer the 2nd way where the code entirely represents the state-space, and nearly 0 documentation is required to be written by author or read by consumer.
+It is subjective and situational, but I generally prefer the 2nd way where the code concisely describes the state-space, and nearly 0 documentation is required to be written by author or read by consumer.
 
 ## Cost of conventions
 
