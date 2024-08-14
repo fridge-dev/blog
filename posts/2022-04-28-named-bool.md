@@ -165,11 +165,11 @@ We can give explicit names to the `Some` and `None` variants by defining our own
 ```rust
 // Using Option
 struct WorkScheduler {
-    // Shutdown task that tracks if we've started the background shutdown task.
+    // This tracks if we've started the background nanny task.
     //
-    // None: Shutdown task has not yet started.
-    // Some: Shutdown task is running.
-    shutdown_task: Option<JoinHandle<()>>,
+    // None: Nanny task has not yet started.
+    // Some: Nanny task is running.
+    nanny_task: Option<JoinHandle<()>>,
 
     // ...
 }
@@ -178,18 +178,18 @@ struct WorkScheduler {
 ```rust
 // Using named-Option
 struct WorkScheduler {
-    shutdown_task: ShutdownTask
+    nanny_task: NannyTask
 
     // ...
 }
 
-enum ShutdownTask {
+enum NannyTask {
     NotStarted,
     Running(JoinHandle<()>),
 }
 ```
 
-It is subjective and situational, but I generally prefer the 2nd way where the code concisely describes the state-space, and nearly 0 documentation is required to be written by author or read by consumer.
+It is subjective and situational, but I generally prefer the 2nd way where the code concisely describes the state-space. It requires nearly 0 documentation to be written by author or read by consumer. And you avoid misunderstandings where `None` could be (mis-)interpretted in multiple ways.
 
 ## Cost of conventions
 
