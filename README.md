@@ -14,7 +14,8 @@ My opinions are my own and do not reflect the opinions of my employer.
 
 * Consider changing github username and/or repo name (e.g. `fridgedev.github.io/blog`)
 * Consier using custom domain name
-* Add index.md file to posts/
+* Add index.md file to `posts/`
+* Flatten the `posts/` pages
 * Hide other WIP folders
 * Flush notes from scratch pad
 * Update description of blog
