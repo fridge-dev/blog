@@ -46,7 +46,7 @@ let client = my_client::connect(
 );
 ```
 
-Voila! Problem solved. Well... Kind of. It relies on best intentions of human programmers, which will simply never be as reliable as some type of programmatic enforcement. So how can we do better?
+This relies on best intentions of humans, which will never be as reliable as some type of programmatic enforcement. Let's do better.
 
 ### Separate methods
 
@@ -56,7 +56,7 @@ One of the obvious approaches to avoid "boolean hell" and a lot of branching in 
 let client = my_client::connect_tls("github.com");
 ```
 
-In practice, I have found this can situationally work well, but there will still be times where either there are too many bool params resulting in a combinatorial amount of methods or it simply doesn't make logical sense to split into multiple methods.
+In practice, I have found this can situationally work well, but there will inevitably be situations where either there are too many bool params resulting in a combinatorial amount of methods or it doesn't make logical sense to split into multiple methods.
 
 ### Named boolean enum types
 
@@ -193,7 +193,7 @@ It is subjective and situational, but I generally prefer the 2nd way where the c
 
 ## Cost of conventions
 
-Every fancy abstraction that you introduce has a cost. A small conceptual cost that new readers and maintainers will have to learn, on top of the many other bits of knowledge they must acquire to be effective in a code base. There is a certain charm of writing the simplest possible code using standard lib.
+Every fancy abstraction that you introduce has a cost. A small conceptual cost that new readers and maintainers will have to learn, on top of the many other bits of knowledge they must acquire to be effective in a code base. There is a certain charm of writing the code using only standard lib and minimal dependencies/abstractions.
 
 The point of this post is to make people aware of this choice and give people the option to consider using in some situations. As always, situational judgement is required.
 
