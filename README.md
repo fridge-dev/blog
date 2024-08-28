@@ -1,10 +1,8 @@
-# test-blog-hello
+# blog
 
-Deployed to https://fridge-dev.github.io/test-blog-hello
+Deployed to https://fridge-dev.github.io/blog
 
-I want to write a couple of programming blog posts, and I need to practice how to do it. So that's what this repo is.
-
-I will primarily focus on rust, and maybe dabble in some java or go.
+Repo for holding SE related blog posts.
 
 ## Disclaimer
 
@@ -20,3 +18,6 @@ My opinions are my own and do not reflect the opinions of my employer.
 * Flush notes from scratch pad
 * Update description of blog
 * Add proper footer for each page, or customize the existing one github adds on (if possible)
+* Have About Me section header/footer on each page.
+* Automate indexing of `posts/` in the table of contents
+* Link to other blog posts from a post page.
