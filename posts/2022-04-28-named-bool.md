@@ -4,7 +4,7 @@ Booleans are pretty simple. A `bool` can only ever be one of two values, yet I s
 
 Why?
 
-## Booleans are bad
+## Booleans aren't self describing
 
 When a caller uses `bool` literals as method args, it requires the reader to either know the method being called or go check the method signature to be certain. When `bool` is used as a return type, it again requires readers of the call site to either know the method or go check the method doc to understand what `true` or `false` means.
 
@@ -26,7 +26,7 @@ if state_changed {
 }
 ```
 
-Some appreciation of this problem comes from recognizing that we read code far more often than we write it- and it is easy to underestimate how often we're reading code *not in an IDE* (e.g. StackOverflow, Github, peer code review). At my job, I spend a considerable amount of time reading code in a web browser. Having to check another file means having to open another page/tab, and sometimes it requires multiple page hops if I need to search to find the method definition that I want to understand more. Even searching for something on the same page requires me to interrupt my concious flow and put another item on my cognitive stack that needs to be popped.
+Some appreciation of this problem comes from recognizing that we read code far more often than we write it- and it is easy to underestimate how often we're reading code *not in an IDE* (e.g. StackOverflow, Github, peer code review). At my job, I spend a considerable amount of time reading code in a web browser. Having to check another file can mean having to open another page/tab, and sometimes it requires multiple page hops if I need to search to find the method definition that I want to understand more. Even searching for something on the same page requires me to interrupt my concious flow and put another item on my cognitive stack.
 
 If you're writing code in an IDE, it still requires the best intention of the author to read the method signature and doc and do the right thing with that information.
 
@@ -58,9 +58,9 @@ let client = my_client::connect_tls("github.com");
 
 In practice, I have found this can situationally work well, but there will still be times where either there are too many bool params resulting in a combinatorial amount of methods or it simply doesn't make logical sense to split into multiple methods.
 
-### Create enum types
+### Named boolean enum types
 
-My preferred solution is to model a `bool` as an enum with 2 variants. This way, each variant gets a name.
+My preferred solution is to model a `bool` as an enum with 2 variants. This way, `true` and `false` each get a more specific name. It's a "named boolean".
 
 ```rust
 pub enum SecurityMode {
@@ -90,31 +90,9 @@ let client = my_client::connect(
 );
 ```
 
-My oh my, we got a beauty on our hands. Look at that. You will now force every caller to explicitly specify their method args in unconfusing, unmistakable, human-readable text without have to check and double check the documentation that they chose the correct `true` or `false`.
+Beautiful! You will now force every caller to explicitly specify their method args in unconfusing, unmistakable, human-readable text without having to check and double check the documentation that they chose the correct `true` or `false`.
 
-#### Zero cost abstraction
-
-Sounds like a buzz word. What does it mean? In this case, it means we can achieve this higher level abstraction to improve developer experience **without any additional runtime cost**.
-
-TODO: use godbolt to compare compiled code
-
-```rust
-pub enum SecurityMode {
-    None,
-    Tls,
-}
-
-fn main() {
-    // prints "1 byte(s)"
-    println!("{} byte(s)", std::mem::size_of::<SecurityMode>());
-
-    // prints "1 byte(s)"
-    println!("{} byte(s)", std::mem::size_of::<bool>());
-}
-```
-([playground](https://play.rust-lang.org/?version=nightly&mode=debug&edition=2021&gist=b24608a5f6d68de594760da6db36611d))
-
-#### Enum types as a return type
+#### Named boolean return type
 
 Here's the second confusing code snippet from the first section.
 
@@ -156,11 +134,33 @@ if matches!(outcome, RunOutcome::StateChanged) {
 
 Okay, so it's a bit more verbose, but it's unmistakeable for the caller to use.
 
+#### Zero cost abstraction
+
+Sounds like a buzz word. What does it mean? In this case, it means we can achieve this higher level abstraction to improve developer experience **without any additional runtime cost**.
+
+TODO: use godbolt to compare compiled machine code
+
+```rust
+pub enum SecurityMode {
+    None,
+    Tls,
+}
+
+fn main() {
+    // prints "1 byte(s)"
+    println!("{} byte(s)", std::mem::size_of::<SecurityMode>());
+
+    // prints "1 byte(s)"
+    println!("{} byte(s)", std::mem::size_of::<bool>());
+}
+```
+([playground](https://play.rust-lang.org/?version=nightly&mode=debug&edition=2021&gist=b24608a5f6d68de594760da6db36611d))
+
 ## Named Options
 
-I don't think this is as important to do all of the time, but I like to apply the same thinking to `Option`. A lot of times, a var name and `Some` or `None` can still cause a double-take or some extra cognitive overhead.
+I also like to apply the Named Boolean pattern to `Option`s. A lot of times, a var name and a `Some` or `None` value can still cause a double-take or some extra cognitive overhead.
 
-We can give explicit names to the `Some` and `None` variants by defining our own enum. I find this more helpful when existing as a field within a struct or inside an enum variant, but it could still be helpful in a method signature.
+We can give explicit names to the `Some` and `None` variants by defining our own enum. I find this more helpful as a field within a struct or inside an enum variant, but it could still be helpful in a method signature.
 
 ```rust
 // Using Option
