@@ -7,7 +7,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Software engineering blog covering topics like programming patterns,
+  This is a software engineering blog covering topics like programming patterns,
   code readability, maintaining a software project as a team, self
   analysis habits, and communication skills. Blog posts are short
   and to the point, especially soft-skill, stream-of-conciousness posts.

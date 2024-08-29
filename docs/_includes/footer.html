@@ -6,6 +6,12 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
 
       <!-- Removed RSS feed sub link -->
 
@@ -17,9 +23,6 @@
           <li><a href="{{ site.author.repo }}">Blog hosted on Github</a></li>
         </ul>
       {%- endif %}
-      </div>
-      <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
       </div>
       <div class="footer-col">
         <p>{{ site.disclaimer | escape }}</p>
