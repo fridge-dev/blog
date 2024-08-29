@@ -1,5 +1,6 @@
 title: Fridge Dev Blog
 author:
+  repo: https://github.com/fridge-dev/blog
   name: fridge-dev
   email: todo@domain.com
 
@@ -11,8 +12,9 @@ description: >
   analysis habits, and communication skills. Blog posts are short
   and to the point, especially soft-skill, stream-of-conciousness posts.
 
-# Build settings
+disclaimer: The opinions on this site are my own. They do not necessarily represent those of my employer.
 
+# Build settings
 
 # As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/).
 # To use minima v3, we use remote theme
@@ -32,9 +34,6 @@ plugins:
 header_pages:
   - about.md
 
-# Set to `true` to show excerpts on the homepage.
-#show_excerpts: false
-
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
   # Minima skin selection.
@@ -46,7 +45,3 @@ minima:
   # solarized-dark     Dark variant of solarized color scheme.
   # solarized          Adaptive skin for solarized color scheme skins.
   skin: solarized
-
-  # Generate social links in footer.
-  social_links:
-    - { platform: github, user_url: "https://github.com/fridge-dev/blog" }
