@@ -39,9 +39,9 @@ Take a few seconds to try to appreciate what's going on. Here's a [rust playgrou
 
 ## Problem
 
-The problem is we don't `await` the future returned by `try_call_api()`. We're not ignoring the `Result`, we're ignoring the `Future`. Remember, `Future` is lazily evaluated and doesn't do work unless polled [see rustdoc](https://doc.rust-lang.org/std/future/trait.Future.html#runtime-characteristics), so the code within `try_call_api()` will never actually run.
+The problem is we don't `await` the future returned by `try_call_api()`. We're not ignoring the `Result`, we're ignoring the `Future`. Remember, `Future` is lazily evaluated and doesn't do work unless polled ([see rustdoc](https://doc.rust-lang.org/std/future/trait.Future.html#runtime-characteristics)), so the code within `try_call_api()` will never actually run.
 
-*Aside: If you're unfamiliar with `async`/`await` in rust, I'd strongly recommend reading the first 2-3 chapters of https://rust-lang.github.io/async-book . It is well worth your time.*
+*Aside: If you're unfamiliar with `async`/`await` in rust, I'd strongly recommend reading the first 2-3 chapters of [https://rust-lang.github.io/async-book] . It is well worth your time.*
 
 ### Risk of changing `fn -> Result` to `async fn -> Result`
 
