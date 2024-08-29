@@ -8,9 +8,8 @@ author:
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
   This is a software engineering blog covering topics like programming patterns,
-  code readability, maintaining a software project as a team, self
-  analysis habits, and communication skills. Blog posts are short
-  and to the point, especially soft-skill, stream-of-conciousness posts.
+  code readability, maintaining a software project as a team, and some
+  stream-of-conciousness prose about how to think about software and being on a team.
 
 disclaimer: The opinions on this site are my own. They do not necessarily represent those of my employer.
 
