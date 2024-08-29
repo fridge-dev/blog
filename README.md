@@ -6,7 +6,12 @@ Repo for holding SE related blog posts.
 
 Deployed to https://fridge-dev.github.io/blog
 
-Uses GitHub pages with minimal Jekyll config. Publishes content from `docs/` to the root website page.
+Uses GitHub pages with Jekyll. Publishes content from `docs/` to the root website page.
+
+Helpful docs:
+* https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+* https://jekyll.github.io/minima/
+* https://github.com/jekyll/minima/blob/009aa8417f2908e7013c6e04ed322939eb6356c0/_config.yml
 
 ## Disclaimer
 
