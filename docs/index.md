@@ -1,7 +1,8 @@
 ---
 layout: home
+title: Welcome
 ---
 
-## Welcome
-
 {{ site.description }}
+
+## Posts

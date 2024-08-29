@@ -30,3 +30,4 @@ My opinions are my own and do not reflect the opinions of my employer.
 * Have About Me section header/footer on each page.
 * Automate indexing of `posts/` in the table of contents
 * Link to other blog posts from a post page.
+* How to get section links with minima.
