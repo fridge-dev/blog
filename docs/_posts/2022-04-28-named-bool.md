@@ -1,4 +1,7 @@
-# Named Booleans
+---
+layout: post
+title: Named Booleans
+---
 
 Booleans are pretty simple. A `bool` can only ever be one of two values, yet I still find they are a disproportionate source of confusion, misunderstanding, and bugs.
 
