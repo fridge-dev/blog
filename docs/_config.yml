@@ -1,4 +1,4 @@
-theme: jekyll-theme-minima
+theme: minima
 
 plugins:
   # Gen AI prompt: "github pages how to redirect from one markdown file to another"
