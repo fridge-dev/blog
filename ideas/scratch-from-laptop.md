@@ -75,3 +75,5 @@ How to keep a service "dumb" and simple: implement policies/mechanisms, but don'
 
 Imagine how you'd solve something before attending meeting. Pay attention to differences.
 Practice being the owner of all services/components/technology.
+
+Mentality on tests: imagine future dev is allowed to make any (reasonably well-intended*) changes to the source so long as the tests pass. What tests would you write?
