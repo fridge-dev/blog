@@ -1,8 +1,12 @@
 # blog
 
+Repo for holding SE related blog posts.
+
+## Deployment
+
 Deployed to https://fridge-dev.github.io/blog
 
-Repo for holding SE related blog posts.
+Uses GitHub pages with minimal Jekyll config. Publishes content from `docs/` to the root website page.
 
 ## Disclaimer
 
