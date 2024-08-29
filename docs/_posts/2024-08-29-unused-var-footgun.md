@@ -35,11 +35,11 @@ async fn do_some_cool_stuff(/* ... */) {
 
 This code looks innocent enough. It even has a nice comment explaining why we're ignoring a Result. ... But do you see the bug?
 
-Take a few seconds to try to appreciate what's going on. Here's a [rust playground](https://play.rust-lang.org/?version=nightly&mode=debug&edition=2021&gist=2338dddcd6595b6957648c81f0d2757c) with the buggy code.
+Take a few seconds to try to appreciate what's going on. Here's a [rust playground](https://play.rust-lang.org/?version=nightly&mode=debug&edition=2021&gist=95570a3014306f632cb00c948d315bd2) with the buggy code.
 
 ## Problem
 
-We think we're ignoring the Result returned by `try_call_api()`, but we're actually ignoring the Future (gasp!) by not `await`ing it. Remember, a Future is lazily evaluated and doesn't do work unless polled ([see rustdoc](https://doc.rust-lang.org/std/future/trait.Future.html#runtime-characteristics)), so the code within `try_call_api()` will never actually run.
+With `let _ = try_call_api(/* ... */);`, we think we're ignoring the Result, but we're actually ignoring the Future by not `await`ing it. Remember, a Future is lazily evaluated and doesn't do work unless polled ([rustdoc](https://doc.rust-lang.org/std/keyword.async.html)), so the code within `try_call_api()` will never actually run.
 
 *Aside: If you're unfamiliar with `async`/`await` in rust, I'd strongly recommend reading the first 2-3 chapters of [https://rust-lang.github.io/async-book](https://rust-lang.github.io/async-book). It is well worth your time.*
 
@@ -58,7 +58,7 @@ fn my_code(/* ... */) {
 }
 ```
 
-...and we change `fn call_api` to be `async fn call_api`.
+...and we change `fn call_api()` to be `async fn call_api()`. Yikes.
 
 We'll see below how to prevent both of these problems.
 
