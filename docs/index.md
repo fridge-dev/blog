@@ -2,7 +2,7 @@
 layout: home
 ---
 
-## [About](/about.html)
+## [About](/about.md)
 
 ## Disclaimer
 
