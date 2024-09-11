@@ -19,15 +19,27 @@ My opinions are my own and do not reflect the opinions of my employer.
 
 # Repo Maintenance Backlog
 
-* Consider changing github username and/or repo name (e.g. `fridgedev.github.io/blog`)
-* Consier using custom domain name
-* Add index.md file to `posts/`
-* Flatten the `posts/` pages
-* Hide other WIP folders
-* Flush notes from scratch pad
-* Update description of blog
-* Add proper footer for each page, or customize the existing one github adds on (if possible)
-* Have About Me section header/footer on each page.
-* Automate indexing of `posts/` in the table of contents
-* Link to other blog posts from a post page.
-* How to get section links with minima.
+**High priority**
+
+* [x] Add index.md file to `posts/`
+* [x] Hide other WIP folders
+* [x] Flush notes from scratch pad
+* [x] Update description of blog
+* [x] Add proper footer for each page, or customize the existing one github adds on (if possible)
+* [x] Have About Me section header/footer on each page.
+* [x] Automate indexing of `posts/` in the table of contents
+* [] Add link to other blog posts from hamburger menu
+
+**Medium priority**
+
+* [] Groom backlog ideas
+* [] Clean up phone notes
+* [] Link to other blog posts from a post page.
+* [] Consider changing github username and/or repo name (e.g. `fridgedev.github.io/blog`)
+* [] How to get section links with minima.
+* [] Choose/remove link to email todo
+
+**Low priority**
+
+* [] Consier using custom domain name
+* [] Flatten the `posts/` pages

@@ -13,3 +13,7 @@ I work with a team to design, build, maintain, and operationally support some cr
 For coding, I primarily write Rust and Java, with a little bit of Go sprinkled in.
 
 All opinions are my own.
+
+### What is "Fridge" Dev? Do you develop software for refridgerators?
+
+It's just a cool name, might change it later.

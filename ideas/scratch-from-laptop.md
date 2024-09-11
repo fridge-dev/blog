@@ -77,3 +77,9 @@ Imagine how you'd solve something before attending meeting. Pay attention to dif
 Practice being the owner of all services/components/technology.
 
 Mentality on tests: imagine future dev is allowed to make any (reasonably well-intended*) changes to the source so long as the tests pass. What tests would you write?
+
+
+To learn a new code base: refactor it. Don't check it in. Just restructure the existing ideas in your own mental model. This requires you to deeply understand what's going on and what are the tricky edge case behaviors.
+This also requires you to be good at refactoring correctly (i.e. no unintended behavior change), which is prob worth another more detailed post about how to be good at refactoring. This also requires you to be opinionated (not necessarily objectively good) at coding, as it requires you to see some functionally correct code in form A and think "nah that's not how i'd do it" and rewrite it in form B.
+These don't need to be large refactors. My most common example are changing/adding/removing encapsulation layers and changing public APIs to more simply model the current usage and remove any premature abstractions [TODO link to premature abstractions post?](...).
+Take it from Cal Newport: QEC note habit: to understand something, you should rewrite your note in your own structure [TODO citation, see https://www.youtube.com/watch?v=5O46Rqh5zHE].
