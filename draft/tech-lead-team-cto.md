@@ -24,3 +24,20 @@ if money were no constraint? What if you had very
 
 
 Side note: when talking in my head, it's much easier to stop mid-sentence, rewind, and re-do part of a sentence to change direction. With written/spoken text, I fall into the trap of wanting to continue the thought. How to break that to get productivity/quality of thoughts with durability?
+
+
+## Other TODO
+
+- Growing to tech lead: individual success -> team success
+    - team = current team and future team, not just this month's projects
+- be informed about most WIP projects
+- be informed of opportunity cost: what are we not doing
+- understand why each project is important
+- understand when tech debt is taken and why it's okay
+- understand what tech debt exists and what tech debt should be resolved as part of a new project
+
+## What it isn't
+
+Being right all the time. In fact, I think it's a super important skill to be able to admit your initial judgement was wrong and change your opnion in light of new information rather than be stubborn to stick to your initial idea.
+
+You don't have to be right all the time. You just have to be right a lot of the time, AND be transparent about when you don't know or aren't confident in something. Over time, you will earn trust from leadership.
