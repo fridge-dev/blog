@@ -14,3 +14,6 @@ Backlog organization:
 * blog posts (long)
 * best practice snippets (short, maybe a single running post?)
 * misc thoughts (prob won't come to anything)
+
+
+...hopefully reach a few readers, because I've def gotten help from other random peoples' blogs...

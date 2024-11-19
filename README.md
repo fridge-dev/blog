@@ -32,6 +32,7 @@ My opinions are my own and do not reflect the opinions of my employer.
 
 **Medium priority**
 
+* [] Give option of dark mode
 * [] Groom backlog ideas
 * [] Clean up phone notes
 * [] Link to other blog posts from a post page.

@@ -3,6 +3,8 @@
         Yes. That will limit the audience a bit, but will make a more
         impactful point to those it applies to. And I'm not trying to
         influence hundreds of thousands of engineers. Just a few dozen.
+
+
 2. How to teach/give feedback
     - apply future prevention to teaching moment.
         - ACK: sometimes, re-teaching will be unavoidable
@@ -13,7 +15,9 @@
         flow. You must find out how people think, what steps they take, and
         then figure out how to inject the practice/principle into their mental
         problem solving execution
-3. The career growth choice you didn't know you had at Amazon
+
+
+3. The career growth choice you didn't know you had
     - I'm often asked how do I grow to the next level? How do I get promoted?
     - I'm perfectly happy to help in these situations. I admire self-growth
         and encourage those passionate about it to keep pursuing it.
@@ -21,14 +25,14 @@
         important: It's okay/acceptable to not want to grow. It's okay to not
         want to grow as fast as possible. And it's a choice between career growth
         and whatever else one can do with their life.
-    - You're at amazon, so you must be good at solving problems. And there's
+    - You're at a top tier tech company, so you must be good at solving problems. And there's
     readily available opportunity in front of you. If you're good at it, you enjoy it,
     and there's opportunity, then it can be an obvious choice to go all-in.
 
     But there's one thing that takes a higher level of consciousness and a longer term
     thinking about. What is the opportunity cost of you investing that energy.
 
-    It's easy at amazon to get pulled into the high speed current and see everyone
+    It's easy in competitive tech companies to get pulled into the high speed current and see everyone
     else around you swimming as fast as they can and assume that that's the best way
     to live life. This isn't to discourage you from trying to swim as fast as possible.
     Just make sure you pop your head out of the water and make sure you know where you're
@@ -37,17 +41,11 @@
 
 
 
-4(?). Rust state machine impl - do you always need a wrapper type with Option<SM> where you .take() and then put it back?
+4. Rust state machine impl - do you always need a wrapper type with Option<SM> where you .take() and then put it back?
     - do we pretty much always need a Holder<T> type of abstraction?
     https://geeklaunch.io/blog/make-invalid-states-unrepresentable/
 
 Other team/soft topics:
-
-- Pretend you're the CTO of this small startup team/org. What would you do if you
-had to choose? Would you choose A or B, or choose to spend more effort gathering
-info? What would you do to gather more info? What if time was no constraint? What
-if money were no constraint? What if you had very
-
 
 Learning: Ask yourself "why". Ask why about choices you make, choices others have made.
 Keep asking why, and if you get an answer that doesn't make sense, then keep chasing.
@@ -83,3 +81,7 @@ To learn a new code base: refactor it. Don't check it in. Just restructure the e
 This also requires you to be good at refactoring correctly (i.e. no unintended behavior change), which is prob worth another more detailed post about how to be good at refactoring. This also requires you to be opinionated (not necessarily objectively good) at coding, as it requires you to see some functionally correct code in form A and think "nah that's not how i'd do it" and rewrite it in form B.
 These don't need to be large refactors. My most common example are changing/adding/removing encapsulation layers and changing public APIs to more simply model the current usage and remove any premature abstractions [TODO link to premature abstractions post?](...).
 Take it from Cal Newport: QEC note habit: to understand something, you should rewrite your note in your own structure [TODO citation, see https://www.youtube.com/watch?v=5O46Rqh5zHE].
+
+
+good leader: find the next point of failure (in a design) as soon as possible. Dive straight into the details (quantified if possible) of what it would take to solve something. Is it ridiciuluous and crazy? Is only one specific part of it ridiculuous and crazy, and the rest is reasonable? You have just broken down the problem into a more specific, more distilled problem.
+
