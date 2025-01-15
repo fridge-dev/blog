@@ -14,6 +14,6 @@ For coding, I primarily write Rust and Java, with a little bit of Go sprinkled i
 
 All opinions are my own.
 
-### What is "Fridge" Dev? Do you develop software for refridgerators?
+### What is "Fridge" Dev?
 
-It's just a cool name, might change it later.
+I wanted a cool name, might change it later.

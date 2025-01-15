@@ -2,6 +2,18 @@
 
 Repo for holding SE related blog posts.
 
+## Goals
+
+* Understand my own thinking better. If I write out my ideas, it forces me to understand them better.
+* More easily share my ideas with coworkers to help get on the same page more quickly.
+* Hopefully help a few readers learn new things. I've definitely gotten help from other random unassuming software engineering blogs. This is my small way of (hopefully) contributing back.
+
+## Disclaimer
+
+My opinions are my own and do not reflect the opinions of my employer.
+
+# Development / Maintenance
+
 ## Deployment
 
 Deployed to https://fridge-dev.github.io/blog
@@ -13,11 +25,7 @@ Helpful docs:
 * https://jekyll.github.io/minima/
 * https://github.com/jekyll/minima/blob/009aa8417f2908e7013c6e04ed322939eb6356c0/_config.yml
 
-## Disclaimer
-
-My opinions are my own and do not reflect the opinions of my employer.
-
-# Repo Maintenance Backlog
+## Repo Maintenance Backlog
 
 **High priority**
 
