@@ -110,8 +110,6 @@ Example (oversimplified):
 - Solution: Customer uploads the image to DUB S3, when customer hits "post", async workflow copies the image from DUB to IAD
 
 
-Input goals vs output goals
-
 How to keep a service "dumb" and simple: implement policies/mechanisms, but don't select the policy.
 >I think it’s important for keeping Component A simpler that Component A is not doing some policy selection based on request params, but instead just lets the client select the policy explicitly in the request. Having service implement the mechanism for different policies, and client select which policy to use is a pretty common pattern that’s useful for keeping the server simpler and more focused on “how to do X, how to do Y” and not “when should I do X vs Y”.
 >Component B has this same pattern in a few interactions with other components. It helps simplify Component B a lot, which is important because even just implementing behavior X can be quite complicated, and we prefer (when it makes sense) to outsource complex business logic of choosing when/why to do X.
@@ -130,3 +128,9 @@ Take it from Cal Newport: QEC note habit: to understand something, you should re
 
 good leader: find the next point of failure (in a design) as soon as possible. Dive straight into the details (quantified if possible) of what it would take to solve something. Is it ridiciuluous and crazy? Is only one specific part of it ridiculuous and crazy, and the rest is reasonable? You have just broken down the problem into a more specific, more distilled problem.
 
+
+understandability > ergonomics
+
+
+How to think about: `impl MyData { fn method(&self, ...) { ... } }` vs `fn method(my_data: &MyData, ...) { ... }`
+gets into DRY should not be for small code snippets scoped to entire project, but rather small code snippets scoped to a module, or large code snippets scoped to project.
