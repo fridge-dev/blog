@@ -35,4 +35,4 @@ That being said, input goals _are_ just a means to an end. You should always be 
 
 --------
 
-_Related reading: SMART goals [https://en.wikipedia.org/wiki/SMART_criteria]_
+_Related reading: SMART goals [https://en.wikipedia.org/wiki/SMART_criteria](https://en.wikipedia.org/wiki/SMART_criteria)_

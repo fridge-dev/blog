@@ -10,10 +10,10 @@ After ranting about this to my team, I wanted to write out my thoughts on cases 
 I've since stumbled upon a couple of posts that explain my mentality in a much more concise and coherent way. I'll leave my drafted rant here, but you should really read the 2 posts below.
 
 > "you shouldn't be dogmatic about when you start writing abstractions but instead write the abstraction when it feels right and don't be afraid to duplicate code until you get there."
-> \- [https://kentcdodds.com/blog/aha-programming]
+> \- [https://kentcdodds.com/blog/aha-programming](https://kentcdodds.com/blog/aha-programming)
 
 > "duplication is far cheaper than the wrong abstraction"
-> \- [https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction]
+> \- [https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction](https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
 
 ### Struct method vs mod function
 
