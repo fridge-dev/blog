@@ -82,6 +82,9 @@ CR/design review: anticipate the problem, design the high level solution, identi
 where are the tricky parts where we might get something "wrong" in a way that impacts
 customers/the business later.
 
+Imagine how you'd solve something before attending meeting. Pay attention to differences.
+Practice being the owner of all services/components/technology.
+
 Generalize design doc: Always ask "what problem does this solve". If it doesn't solve
 any, then it most likely doesn't have a reason to exist. Some exceptions are "we think it
 might solve this problem" or "we don't yet know which problem this solves"... i.e.
@@ -114,23 +117,8 @@ How to keep a service "dumb" and simple: implement policies/mechanisms, but don'
 >I think it’s important for keeping Component A simpler that Component A is not doing some policy selection based on request params, but instead just lets the client select the policy explicitly in the request. Having service implement the mechanism for different policies, and client select which policy to use is a pretty common pattern that’s useful for keeping the server simpler and more focused on “how to do X, how to do Y” and not “when should I do X vs Y”.
 >Component B has this same pattern in a few interactions with other components. It helps simplify Component B a lot, which is important because even just implementing behavior X can be quite complicated, and we prefer (when it makes sense) to outsource complex business logic of choosing when/why to do X.
 
-Imagine how you'd solve something before attending meeting. Pay attention to differences.
-Practice being the owner of all services/components/technology.
-
-Mentality on tests: imagine future dev is allowed to make any (reasonably well-intended*) changes to the source so long as the tests pass. What tests would you write?
-
 
 To learn a new code base: refactor it. Don't check it in. Just restructure the existing ideas in your own mental model. This requires you to deeply understand what's going on and what are the tricky edge case behaviors.
 This also requires you to be good at refactoring correctly (i.e. no unintended behavior change), which is prob worth another more detailed post about how to be good at refactoring. This also requires you to be opinionated (not necessarily objectively good) at coding, as it requires you to see some functionally correct code in form A and think "nah that's not how i'd do it" and rewrite it in form B.
 These don't need to be large refactors. My most common example are changing/adding/removing encapsulation layers and changing public APIs to more simply model the current usage and remove any premature abstractions [TODO link to premature abstractions post?](...).
 Take it from Cal Newport: QEC note habit: to understand something, you should rewrite your note in your own structure [TODO citation, see https://www.youtube.com/watch?v=5O46Rqh5zHE].
-
-
-good leader: find the next point of failure (in a design) as soon as possible. Dive straight into the details (quantified if possible) of what it would take to solve something. Is it ridiciuluous and crazy? Is only one specific part of it ridiculuous and crazy, and the rest is reasonable? You have just broken down the problem into a more specific, more distilled problem.
-
-
-understandability > ergonomics
-
-
-How to think about: `impl MyData { fn method(&self, ...) { ... } }` vs `fn method(my_data: &MyData, ...) { ... }`
-gets into DRY should not be for small code snippets scoped to entire project, but rather small code snippets scoped to a module, or large code snippets scoped to project.

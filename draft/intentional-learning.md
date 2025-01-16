@@ -72,8 +72,17 @@ In my experience, this is also one of the hardest things to intentionally get be
 
 ## Predict, Compare, and Recognize
 
-Get out there and PCR!
+Get out there and PCR! (make not cringey)
+
+------
 
 ## Appendix - snippets
 
 _Side note: If there are too many unknowns for a single review, and you are a more senior engineer reviewing a less tenured engineer's work, the right feedback might be to say the problem needs to be broken down further to be productively discussed as a team. And of course help talk through the problem breakdown process with examples, if help is needed._
+
+CR/design review: anticipate the problem, design the high level solution, identify
+where are the tricky parts where we might get something "wrong" in a way that impacts
+customers/the business later.
+
+Imagine how you'd solve something before attending meeting. Pay attention to differences.
+Practice being the owner of all services/components/technology.
