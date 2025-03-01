@@ -3,7 +3,7 @@ layout: post
 title: Design docs are a tool
 ---
 
-Design docs are a tool to save you time.
+**Design docs are a tool to save you time.** If you're not treating it that way, you're doing it wrong.
 
 I've heard from numerous people that they hate writing docs, it's stressful, they're bad at it, they procrasinate on it. I mildly share the same feeling. Here is my philosophy for writing docs that has helped me and hopefully can help you.
 
@@ -41,7 +41,7 @@ As a thought exercise, what if you put in the bare minimum effort to get your de
 
 ### When to invest in a design doc
 
-Saving you time doesn't only mean save time of your current impl choice. Through the same lens of saving time, there are situations when it's justified to spend the extra effort on an otherwise acceptable document. Think about total cost of ownership and long term ROI.
+Design docs can save you time well beyond the initial implementation of the design choice. Think about total cost of ownership and long term ROI. Through the same lens of saving time, there are situations when it's justified to spend the extra effort on an otherwise acceptable document.
 
 However, these should be considered the exception, not the norm.
 
@@ -52,6 +52,6 @@ However, these should be considered the exception, not the norm.
 
 ### Design ROI
 
-Simply put, the design input effort should be aligned with the output value you're getting from it. If it's a decision with a smaller impact, it's okay to write a very small design doc! But a large decision doesn't always need a large doc to help illuminate the way forward. Think about the decision you're trying to make and the ROI (return on investment) of your drafting time.
+Simply put, the design input effort should be aligned with the output value you're getting from it. If it's a decision with a smaller impact, it's okay to write a very small design doc! But a large decision doesn't always need a large doc to help illuminate the way forward. Think about the decision you're trying to make and the ROI (return on investment) of your drafting time. But make sure to consider the long term ROI and total cost of ownership.
 
 A design doc is not a form to fill out. Don't just go through the motions. Use your judgement and write what you think is needed. Be pragmatic. Treat it as a means to an end. Good luck!

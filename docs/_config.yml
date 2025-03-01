@@ -8,11 +8,11 @@ author:
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
   This is a software engineering blog covering my interests and ways of thinking about
-  various topics of being an IC or IC leader in a software engineering org.
-  I’m interested in problem solving, code understandability, design patterns,
-  code architecture, system architecture, large scale failure modes, distributed
-  systems algorithms, teaching, learning how other people think, figuring out how
-  to make complex systems easier for others to understand, and being a leader.
+  various topics of being an IC or IC leader. I’m interested in problem solving, code
+  understandability, design patterns, code architecture, system architecture, large
+  scale failure modes, distributed systems algorithms, teaching, learning how other
+  people think, figuring out how to make complex systems easier for others to
+  understand, and being a leader.
 
 disclaimer: The opinions on this site are my own. They do not necessarily represent those of my employer.
 
