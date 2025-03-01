@@ -1,7 +1,11 @@
 How I write a document:
 - Meta: Break this into discrete, independent sections. Not a flow or process, just individual advice.
-    - Intro: Here's some mechanical habits that I consciously follow when I write a doc. I don't always do every single one of these.
+Here are some habits that I follow when I write a doc. I don't always do every single one of these.
+
+## Crank out content
+
 - start with bullet points
+    - put TODOs in docs just like in code
 - crank out content
 - organize content into a cohesive, ordered structure only when you're in the mood (takes more effort than content)
     - order structure the same way you'd have a conversation.
@@ -24,3 +28,21 @@ How I write a document:
     - A lot of times you put in work. You gather some metrics. You draw some detailed diagram
 - Finally, be cognizent of others' writing! Pay attention to when you're reading documents, does a doc "feel" good to read? Does the content flow well? Do you understand it well? If yes, try to understand why. If not, try to imagine what you'd change to make it better. You don't have to give that feedback to the author, that's not necessarily the point I'm trying to make here. Just learn through consuming others' reading.
     - Review the doc from a skimming, completely superficial perspective. Pretend you're an executive and you have 3 minutes to read your doc. Can you quickly skim the section headers and arrive at the spiciest part of the doc? (Should your reader have to skim multiple headers to find the spiciest part?)
+
+
+### Writing style/tone
+
+Write design docs exactly as you'd speak to someone, word for word. Write the exact same prose as if you're verbally explaining an idea to someone, with a whiteboard present. Use the whiteboard to aid conversation, and when you do draw on the whiteboard, that's a big indicator that a diagram would be helpful in a doc. And the diagram doesn't have to be any more fancy or polished than a digital replica of what you've drawn on the whiteboard.
+
+...I avoid re-reading and overly editing my sentences as I write them. It's usually most productive to get in a write-only flow, and then go back and word-smith for better density and clarity later. I'm just starting to practice this, but I hope to get to a point where I can type out exactly what I'd say to someone, and do a write-only flow with near-zero edits after the fact. I think that will be a huge boost to productivity, especially when it comes to influential writing, scaling yourself, and maximizing your impact.
+
+
+### Improving writing quality
+
+If you want to get better at writing high quality docs, the best advice I can give is write more of them. Don't spend more time per doc. Spend more time writing a higher number of docs. Your best docs are yet to come, so be patient and let opportunity and experience help you learn.
+
+
+
+### Copy from design tool save time
+
+I like to put placeholder sections and "TODO" bullet points to show roughly what I'm planning and ask if the doc structure makes sense and if the details I'm planning to get will be useful to help make a decision. You never know, maybe one of your early-reviewers can help save you a ton of time by telling you one option is definitely not acceptable, and you don't need to thoroughly evaluate it. This way you spend iteration time where it matters and you can save time going into detail where it's not needed.
