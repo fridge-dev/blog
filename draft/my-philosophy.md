@@ -1,5 +1,7 @@
 This is a running post containing short snippets of my personal philosophy, habits, and best practices. Some of these may be turned into larger posts later, but for the most part these don't merit a single page post.
 
+A lot of these are written to my past self as the target reader. Good luck!
+
 ## Don't over-work
 
 Cal Newport: Work at a natural pace. Imagine you keep working at your current pace for the rest of your career. Is it sustainable? Rushing to reach a milestone or deadline is often a trap. And it can be a self induced trap! Not always evil managers. <link to other post about telling your managers when you’re too busy>. Be careful for that trap. The start of the next project or milestone is right around the corner and sometimes starts even before the previous milestone properly wraps up (yay tech debt). Choose a pace to work at that you truly believe is sustainable and energizing for work hours and for home life. Be strict and disciplined. My rule of thumb is there should MAYBE be one period per year (of 2-6 weeks let’s say) where you are rushing to cross the finish line. Maybe once per year. That means either 0 or 1 times per year. If your current project or milestone feels important, imagine if you are somehow strictly limited to overworking for one deadline per year. You have a token bucket of capacity 1 and refill rate of 1 per year. If you use your precious 1 token on this milestone, will you regret not having it available if something truly important comes up later in the year?
@@ -81,3 +83,7 @@ Get familiar with a sequence diagramming tool so that it's low friction and you 
 As an engineer, you need to train your brain to eagerly search the state space of a design and find the first possible way to break it. Treat a design review like you're a TLA+ evaluator trying to find an inconsistency. Same applies for drafting your own designs.
 
 good leader: find the next point of failure (in a design) as soon as possible. Dive straight into the details (quantified if possible) of what it would take to solve something. Is it ridiciuluous and crazy? Is only one specific part of it ridiculuous and crazy, and the rest is reasonable? You have just broken down the problem into a more specific, more distilled problem.
+
+## Design: Design docs are a tool to save you time
+
+Moved to dedicated post.

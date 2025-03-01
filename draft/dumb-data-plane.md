@@ -1,0 +1,3 @@
+Data Plane dumb, implements mechanism; Control Plane smart, implements policy selection logic
+Examples: throttling limit (conditional action); optional step in API; Separation of action (the what) and the trigger (the when);
+It may seem like a trivial clarification. But it helps shape how the service evolves. How we communicate and talk about different components will influence how we build and where we put new responsibilities. If we're talking about how 1 service is the intelligent decision maker, and the other service is the highly efficient worker/executor, it can often times make there a clear/obvious home for a new functionality we're adding.

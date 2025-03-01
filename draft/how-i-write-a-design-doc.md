@@ -1,0 +1,26 @@
+How I write a document:
+- Meta: Break this into discrete, independent sections. Not a flow or process, just individual advice.
+    - Intro: Here's some mechanical habits that I consciously follow when I write a doc. I don't always do every single one of these.
+- start with bullet points
+- crank out content
+- organize content into a cohesive, ordered structure only when you're in the mood (takes more effort than content)
+    - order structure the same way you'd have a conversation.
+    - Explain the biggest point first. Clarify tricky points. Answer expected FAQs only after introducing the point that would lead to a question.
+- continually iterate on content and order. Optimize for reader's effort and understanding
+    - iterate = read through doc, find what flows, what doesn't. What questions do you have while you're reading?
+- Productivity: I draft in sublime text. I'm more productive with re-ordering lines and multi-cursor mode.
+    - I usually have line-wrap turns off, which forces my initial points to be focused and fit on a single screen (15" laptop screen).
+- Diagrams:
+    - start with drawing by hand.
+    - My favorite diagraming tool is a yellow notepad, a black, blue, and red pen, and a yellow, green, blue, pink highlighter.
+        - I have one at my desk and one in my backpack.
+    - Diagramming by hand is a hugely underrated skill. Force yourself to diagram things in a quick, sloppy way just to improve your own understanding. Plan to not show anyone. It removes the pressure/expectation of having a high quality, understandable diagram. Maybe that's why I prefer paper rather than a whiteboard, as the paper is more private and I know no one will see or judge my notes.
+    - I am adament that most (maybe nearly all) people are not hand-diagramming enough.
+    - Get productive with a diagramming tool. You *need* both box-arrow diagraming and sequence diagramming. If you're not familiar, eat the learning cost of learning a new software. Ask your senior engineers what they use. Just pick something and stick with it!
+    - Don't overthink it. Don't add too much detail. I like to imagine the target audience of someone in the org who is vaguely familiar with my project, but doesn't know any details. What would you draw for them on a whiteboard? It'd probably be pretty simple boxes to start with. And only when you need to dive into an area do your diagrams get more detailed.
+    - Diagrams are way easier for people to grok quickly. If you're writing an engineering/design document, my rule of thumb is try to have 1 complimentary diagram per page or large section. Don't force it, don't make a junk diagram just to take up space. The most important thing is to empathize with your readers. No one enjoys reading a thick wall of text (like this post lol).
+- Have an Appendix.
+    - If you put a lot of work into a section, but you later realize it's making the doc really busy and overly detailed, don't fall for the sunk cost fallacy of keeping it in the doc just because you already put in the effort.
+    - A lot of times you put in work. You gather some metrics. You draw some detailed diagram
+- Finally, be cognizent of others' writing! Pay attention to when you're reading documents, does a doc "feel" good to read? Does the content flow well? Do you understand it well? If yes, try to understand why. If not, try to imagine what you'd change to make it better. You don't have to give that feedback to the author, that's not necessarily the point I'm trying to make here. Just learn through consuming others' reading.
+    - Review the doc from a skimming, completely superficial perspective. Pretend you're an executive and you have 3 minutes to read your doc. Can you quickly skim the section headers and arrive at the spiciest part of the doc? (Should your reader have to skim multiple headers to find the spiciest part?)
