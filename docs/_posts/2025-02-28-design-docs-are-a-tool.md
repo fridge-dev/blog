@@ -35,9 +35,11 @@ Getting feedback early and often is super important to make sure you're not wast
 
 Another anti-pattern is to draft everything in secret and isolation, imagining how cool the ✨big reveal✨ will feel when you first share your completed document with your peers. Don't do that. Get some eyes on an incomplete draft, even if it's just one person. Ask for feedback on if you're headed in a good direction and if a team review in a couple more days will be a good use of time with the content you're planning to add. Don't be afraid of getting critical feedback. Fail fast! If you're writing about the wrong thing, it's better to get that feedback now than after days of polishing unneeded details.
 
-One strategy I like to do is put placeholder sections and solution options with "TODO" bullet points to show roughly what I'm planning to write about, even if there are open questions and unknowns to evaluate. Ask a pre-reviewer if the doc structure makes sense and if the details I'll be adding will be useful to help make a decision. You never know, maybe one of your early-reviewers can help save you a time by telling you one option is definitely not acceptable, and you don't need to thoroughly evaluate it. This way you spend iteration time where it matters and you can save time going into detail where it's not needed.
+I know there's a certain pride of doing it yourself. But there's also a pride in getting stuff done quickly and consistently. And your teammates and leadership will take notice if you're consistently producing high quality work with a fast turn-around time. Using your teammates effectively to get work done is a strength, not a weakness.
 
-I know there's a certain pride of doing it yourself. But there's also a pride in getting stuff done quickly and consistently. And your teammates and leadership will take notice if you're consistently producing high quality work with a fast turn-around time. Using your teammates effectively to get your work done is a strength, not a weakness.
+#### How to draft for early feedback
+
+One strategy I like to do is put placeholder sections and solution options with "TODO" bullet points to show roughly what I'm planning to write about, even if there are open questions and unknowns to evaluate. Ask a pre-reviewer if the doc structure makes sense and if the details I'll be adding will be useful to help make a decision. You never know, maybe one of your early-reviewers can help save you a time by telling you one option is definitely not acceptable, and you don't need to thoroughly evaluate it. This way you spend iteration time where it matters and you can save time going into detail where it's not needed.
 
 ### Design should feel scrappy
 
