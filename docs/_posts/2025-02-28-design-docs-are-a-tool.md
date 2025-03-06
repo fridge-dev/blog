@@ -3,7 +3,7 @@ layout: post
 title: Design docs are a tool
 ---
 
-**Design docs are a tool to save you time.** If you're not treating it that way, try on this lens and see what you learn.
+**Design docs are a tool to save you time.** If you're not treating it that way, try on this lens.
 
 I've heard peers say they hate writing docs, they're bad at it, it's stressful, they procrasinate. I mildly share the same feeling. Here is my philosophy for writing docs that has helped me and hopefully can help you.
 
@@ -39,7 +39,7 @@ I know there's a certain pride of doing it yourself. But there's also a pride in
 
 #### How to draft for early feedback
 
-One strategy I like to do is put placeholder sections and solution options with "TODO" bullet points to show roughly what I'm planning to write about, even if there are open questions and unknowns to evaluate. Ask a pre-reviewer if the doc structure makes sense and if the details I'll be adding will be useful to help make a decision. You never know, maybe one of your early-reviewers can help save you a time by telling you one option is definitely not acceptable, and you don't need to thoroughly evaluate it. This way you spend iteration time where it matters and you can save time going into detail where it's not needed.
+One strategy I like to do is put placeholder sections and solution options with "TODO" bullet points to show roughly what I'm planning to write about, even if there are open questions and unknowns to evaluate. Ask a pre-reviewer if the doc structure makes sense and if the planned content will be useful to help make a decision. You never know, maybe one of your early-reviewers can help save you a time by telling you one option is definitely not acceptable, and you don't need to thoroughly evaluate it. This way you spend iteration time where it matters and you can save time going into detail where it's not needed.
 
 ### Design should feel scrappy
 
