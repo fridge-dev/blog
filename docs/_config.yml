@@ -28,6 +28,7 @@ plugins:
   - jekyll-seo-tag
   # Gen AI prompt: "github pages how to redirect from one markdown file to another"
   - jekyll-redirect-from
+  - jekyll-feed
 
 # Theme-specific settings
 
