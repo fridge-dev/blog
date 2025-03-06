@@ -39,17 +39,21 @@ I know there's a certain pride of doing it yourself. But there's also a pride in
 
 #### How to draft for early feedback
 
-One strategy I like to do is put placeholder sections and solution options with "TODO" bullet points to show roughly what I'm planning to write about, even if there are open questions and unknowns to evaluate. Ask a pre-reviewer if the doc structure makes sense and if the planned content will be useful to help make a decision. You never know, maybe one of your early-reviewers can help save you a time by telling you one option is definitely not acceptable, and you don't need to thoroughly evaluate it. This way you spend iteration time where it matters and you can save time going into detail where it's not needed.
+One strategy I like to do is put placeholder sections and solution options with "TODO" bullet points to show roughly what I'm planning to write about, even if there are open questions and unknowns to evaluate. Ask a pre-reviewer if the doc structure makes sense and if the planned content will be useful to help make a decision. This helps you spend iteration time where it matters and you can avoid wasted time being thorough where it's not needed.
 
 ### Design should feel scrappy
 
-It's okay for design to feel scrappy! When you get consensus on your proposal, you should feel like there was more polish and word-smithing you wanted to do, or maybe there were still a couple of small sections you wanted to add. If that's not how you feel, you may have gotten to the point of diminishing returns.
+It's okay for design to feel scrappy! Avoid over-polishing. When you get consensus on your proposal, you should feel like there was more things you wanted to tweak or small things you wanted to add. If that's not how you feel, you may have gotten to the point of diminishing returns. An "alright" doc today is usually better than no doc until next week.
 
-As a thought exercise, what if you put in the bare minimum effort to get your design proposal accepted? (I don't mean to write incoherently or to misguide a decision to the fastest outcome. Remember, if you regret the choice in the long term, then your misguided design will likely cost you more total time.)
+As a thought exercise, imagine what if everyone is going to agree with what you're trying to write, and the only thing holding you back from starting implementation is getting it written down and reviewed?
+
+### Design docs are important
+
+Don't get me wrong, writing out your ideas on (digital) paper is a super helpful strategy in both making sure you understand your idea and making sure you are solving the correct problem. I am simply suggesting a new lens to view the designs you may be dreading writing.
 
 ### When to invest in a design doc
 
-Design docs can save you time beyond implementation. Think about total cost of ownership and long term ROI.
+Sometimes design docs can save you time beyond implementation. Think about total cost of ownership and long term ROI (return on investment).
 
 There are situations when it's justified to spend the extra effort on a document. For example, if you expect your proposal will be contentious and require multiple rounds of discussion, if your doc has a large audience, if your doc will be the authoritative documentation of a complex area of the system, if your doc is the high level entry point into a project, if your doc contains re-usable evaluation of a common algorithm or technology, etc. However, these should be considered exceptions, not the norm.
 
