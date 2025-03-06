@@ -18,14 +18,7 @@
           <!-- Removed conditionals -->
           <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
           <li><a href="{{ site.author.repo }}">Blog hosted on Github</a></li>
-          <li>
-            <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
-              <svg class="svg-icon orange">
-                <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-              </svg>
-              <span>Subscribe on RSS</span>
-            </a>
-          </li>
+          <li><a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">Subscribe on RSS</a></li>
         </ul>
       {%- endif %}
       </div>
