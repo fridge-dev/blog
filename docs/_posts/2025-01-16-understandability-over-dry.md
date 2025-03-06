@@ -3,13 +3,9 @@ layout: post
 title: Understandability over DRY
 ---
 
-Let me get my contentious opinion out of the way right away: I think [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) is an over-valued software philosophy. \*gasp!\*
-
-After ranting about this to my team, I wanted to write out my thoughts on cases when DRY can be sacrificed. I think the real risk is when you blindly following DRY, and when you don't use higher brain power to judge if DRY actually helps code understandability or not. It requires a case-by-case evaluation.
-
 ### Edit: Existing art
 
-I've since stumbled upon a couple of posts that explain my mentality in a much more concise and coherent way. I'll leave my drafted rant here, but you should really read the 2 posts below.
+Since writing this, I've stumbled upon a couple of posts that explain my opinion in a much more concise and coherent way. I'll leave my drafted rant here, but you should really read the 2 posts below.
 
 > "you shouldn't be dogmatic about when you start writing abstractions but instead write the abstraction when it feels right and don't be afraid to duplicate code until you get there."
 >
@@ -18,6 +14,14 @@ I've since stumbled upon a couple of posts that explain my mentality in a much m
 > "duplication is far cheaper than the wrong abstraction"
 >
 > \- [https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction](https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
+
+Now, on with my original post.
+
+### DRY is over-valued
+
+Let me get my contentious opinion out of the way right away: I think [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) is an over-valued software philosophy. \*gasp!\*
+
+After ranting about this to my team, I wanted to write out my thoughts on cases when DRY can be sacrificed. I think the real risk is when you blindly following DRY, and when you don't use higher brain power to judge if DRY actually helps code understandability or not. It requires a case-by-case evaluation.
 
 ### Struct method vs mod function
 

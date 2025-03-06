@@ -40,6 +40,7 @@ Helpful docs:
 
 **Medium priority**
 
+* [] Fix `'` getting rendered as `’` yuck
 * [] Give option of dark mode
 * [] Groom backlog ideas
 * [] Clean up phone notes

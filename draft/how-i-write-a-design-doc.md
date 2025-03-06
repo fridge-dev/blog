@@ -10,8 +10,12 @@ Here are some habits that I follow when I write a doc. I don't always do every s
 - organize content into a cohesive, ordered structure only when you're in the mood (takes more effort than content)
     - order structure the same way you'd have a conversation.
     - Explain the biggest point first. Clarify tricky points. Answer expected FAQs only after introducing the point that would lead to a question.
+    - Often, I will have no trouble cranking out content, but organizing it into a flow that's natural for readers to consume is difficult. I will write unordered content and think about structure passively for days until I have an ephiphany about what the right way to introduce the information is.
+    Often times an ephiany or doc structure will come after a whiteboarding session with someone else. During whiteboarding, I am less focused on super precisely defining my idea, and instead I am actively thinking about how to communicate this idea to someone else. It's kind of like rubber ducky doc drafting in a way.
+        - thinking about what they know, what they don't know, what's easy for them to assume, and what might not be obvious to them. Also what context I need to introduce to them and in what order, and what the FAQs are.
 - continually iterate on content and order. Optimize for reader's effort and understanding
     - iterate = read through doc, find what flows, what doesn't. What questions do you have while you're reading?
+    - => concluding point: Recognize that "content" and "structure" are two important and independent "modes"(?) of writing, and you should focus on which one you're having a spark of creativity in in the moment. Try not to force both to happen if you only have one firing in your brain.
 - Productivity: I draft in sublime text. I'm more productive with re-ordering lines and multi-cursor mode.
     - I usually have line-wrap turns off, which forces my initial points to be focused and fit on a single screen (15" laptop screen).
 - Diagrams:
