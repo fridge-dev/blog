@@ -50,3 +50,16 @@ If you want to get better at writing high quality docs, the best advice I can gi
 ### Copy from design tool save time
 
 I like to put placeholder sections and "TODO" bullet points to show roughly what I'm planning and ask if the doc structure makes sense and if the details I'm planning to get will be useful to help make a decision. You never know, maybe one of your early-reviewers can help save you a ton of time by telling you one option is definitely not acceptable, and you don't need to thoroughly evaluate it. This way you spend iteration time where it matters and you can save time going into detail where it's not needed.
+
+
+## Appendix - Existing art
+
+http://www.covingtoninnovations.com/mc/WriteThinkLearn.pdf
+
+* Instead of doing what’s easy for you, do what’s easy for your reader. [...] I’m going to package the information so that it enters your heads as easily as possible.
+* To keep things clear and readable: State the main point before you give the reasoning that leads to it. (Unless you’re writing a detective story!)
+* When revising, pretend to be your own worst enemy. Is there anything that can be misunderstood? If so, change it so that it can’t!
+* Avoid meaningless variation. The reader will expect every change to mean something. If you have 2 typefaces, or different margins in different places, there had better be a reason, or the reader will waste a LOT of time looking for one!
+* The important thing is that you should know whether you know what your words mean. Do not get used to putting words together in familiar ways without understanding them!
+    * ABP?: Don't mindlessly restate words/terms that you don't know what they mean. Don't introduce terms that are new to your organization/problem space without clearly defining them for yourself.
+

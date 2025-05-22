@@ -91,3 +91,11 @@ good leader: find the next point of failure (in a design) as soon as possible. D
 ## Design: Design docs are a tool to save you time
 
 Moved to dedicated post.
+
+------------
+
+Unpolished:
+
+* Learn by working with others. For me, most mentorships have only worked well when I have really specific questions. There are only a couple mentorships from my career where I would narrate everything I've thought through in the past week and ask for advice/comments.
+* Listen to your brain, listen to your body.
+* Try to have 1 single thing to work on. Avoid multi-plexing work. It's distracting and context switching is hella expensive. It is common to severely underestimate the cost of context switching. TODO: graph about productivity being low for first ~10-20 minutes of working on something, and step function up at like 30 minutes when you get in the zone. Now imagine context switching every 30 minutes, or having a 1h meeting in the middle of a 3h block of time.
